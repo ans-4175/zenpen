@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- MISC/META -->
-		<title>ZenPen ~ Minimal Distraction, Maximum Zen</title>
+		<title>Menulis Tanpa Distraksi</title>
 		<meta charset="utf-8" />
 		<meta
 			name="description"
@@ -22,14 +22,14 @@
 	<body class="yin">
 		<div class="overlay">
 			<div class="wordcount modal">
-				<h1>Target Word Count</h1>
+				<h1>Target Jumlah Kata</h1>
 				<div>
 					<input type="number" name="quantity" value="0" min="0" />
 				</div>
 			</div>
 
 			<div class="saveoverlay modal">
-				<h1>Select save format</h1>
+				<h1>Pilih format</h1>
 				<p class="saveselection">
 					<span data-format="markdown">Markdown</span>
 					<span data-format="html">HTML</span>
@@ -37,7 +37,7 @@
 				</p>
 				<button class="savebutton useicons">&#xe006;</button>
 				<div>
-					Or select format and press ctrl+c (cmd+c on mac) to copy the text.
+					Atau langsung copy (ctrl+c [cmd+c on mac]) setelah pilih format
 				</div>
 				<textarea class="hiddentextbox"></textarea>
 			</div>
@@ -81,13 +81,7 @@
 				</div>
 
 				<div class="bottom">
-					<a
-						class="about"
-						href="https://www.buymeacoffee.com/tholman"
-						target="_blank"
-					>
-						☕
-					</a>
+					<span class="word-counter-container">#<span class="word-counter-value"></span></span>
 				</div>
 			</div>
 		</div>
